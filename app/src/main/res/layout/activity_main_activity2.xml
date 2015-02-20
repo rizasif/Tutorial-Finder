@@ -1,0 +1,9 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="riz92.com.tutorialfinder.MainActivity2.MainActivity2_Fragment"
+    android:name="riz92.com.tutorialfinder.MainActivity2$MainActivity2_Fragment"
+    tools:ignore="MergeRootFrame"
+    android:id="@+id/detail_act">
+</FrameLayout>

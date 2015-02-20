@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="app_orange" type="color">#FF7043</item>
+    <item name="app_orange_dark" type="color">#FF5722</item>
+</resources>

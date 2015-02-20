@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context="riz92.com.tutorialfinder.StartUpActivity$startupFragment"
+    android:padding="20dp"
+    android:background="#FAFAFA">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar2"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intro_questions"
+        android:textColor="@color/app_orange"
+        android:paddingLeft="10dp"
+        android:fontFamily="roboto-condensed-bold"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:padding="10dp"
+        android:id="@+id/intoQ"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:id="@+id/radioGroupp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_programming"
+            android:id="@+id/radioButton"
+            android:textColor="@color/app_orange"
+            android:paddingLeft="10dp"
+            android:fontFamily="roboto-condensed-bold"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_math"
+            android:id="@+id/radioButton2"
+            android:textColor="@color/app_orange"
+            android:paddingLeft="10dp"
+            android:fontFamily="roboto-condensed-bold"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_culture"
+            android:id="@+id/radioButton3"
+            android:textColor="@color/app_orange"
+            android:paddingLeft="10dp"
+            android:fontFamily="roboto-condensed-bold"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_health"
+            android:id="@+id/radioButton4"
+            android:textColor="@color/app_orange"
+            android:paddingLeft="10dp"
+            android:fontFamily="roboto-condensed-bold"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        </RadioGroup>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewInto"
+        android:layout_gravity="center" />
+
+
+</LinearLayout>

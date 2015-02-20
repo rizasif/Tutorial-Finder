@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeightLarge"
+    android:minHeight="?android:attr/listPreferredItemHeightLarge">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text=""
+        android:id="@+id/saved_data_item_textview"
+        android:textColor="@android:color/white"
+        android:paddingLeft="10dp"
+        android:fontFamily="roboto-condensed-bold"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:background="@drawable/touch_selector"/>
+
+</LinearLayout>
