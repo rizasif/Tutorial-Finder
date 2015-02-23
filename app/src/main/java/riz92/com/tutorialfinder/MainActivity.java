@@ -78,7 +78,6 @@ public class MainActivity extends Activity
             }
         }else {
             mTwoPane = false;
-            //hellp
         }
 
         TfService.carrierActivity = this;
